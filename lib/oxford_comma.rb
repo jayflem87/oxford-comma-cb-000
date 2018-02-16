@@ -1,8 +1,9 @@
 def oxford_comma(array)
-  string = 
+  last_item = array.pop
+  array_length = array.length
   while array.length > 1
-    item = array.shift
-    
+    array.each |item|
+      
+    end
   end
-
 end
